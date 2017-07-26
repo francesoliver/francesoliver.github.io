@@ -100,7 +100,7 @@ body {
   text-rendering: optimizeLegibility;
   font-weight: 400;
   font-style: normal;
-  font-family: "Goudy Old Style MT W01", "Goudy", serif;
+  font-family: "Goudy Oldstyle W01", "Goudy", serif;
   color: rgba(0,0,0,.86);
   background-color: rgba(255,236,229,.6); }
 
@@ -135,7 +135,7 @@ h3, .nav {
   margin-bottom: 10px;
   text-transform: uppercase;}
 
-strong {font-family: "Goudy MT W01 Bold", "Goudy", serif;}
+strong {font-family: "Goudy Oldstyle W01 Bold", "Goudy", serif;}
 
 p {
   font-weight: 400;

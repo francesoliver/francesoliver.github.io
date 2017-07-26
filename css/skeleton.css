@@ -135,6 +135,8 @@ h3, .nav {
   margin-bottom: 10px;
   text-transform: uppercase;}
 
+strong {font-family: "Goudy MT W01 Bold", "Goudy", serif;}
+
 p {
   font-weight: 400;
   margin-top: 0;

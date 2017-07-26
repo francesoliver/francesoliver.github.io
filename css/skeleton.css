@@ -1,8 +1,20 @@
 /*Skeleton V2.0.4 Copyright 2014, Dave Gamache www.getskeleton.com*/
+.resume {
+position:fixed;
+top:20px;
+right:20px;
+z-index:5000;}
+
+.work {
+position:fixed;
+top:20px;
+left:20px;
+z-index:5000;}
+
 .container {
   position: relative;
   width: 100%;
-  max-width: 720px;
+  max-width: 1000px;
   margin: 0 auto;
   margin-bottom: 60px;
   padding: 0 20px;
@@ -83,13 +95,14 @@ html { font-size: 62.5%; }
 
 body {
   font-size: 30px;
-  line-height: 34px;
+  line-height: 33px;
   letter-spacing: 0;
   text-rendering: optimizeLegibility;
   font-weight: 400;
   font-style: normal;
-  font-family: "Sabon MT W01", serif;
-  color: black; }
+  font-family: "Goudy Old Style MT W01", "Goudy", serif;
+  color: rgba(0,0,0,.86);
+  background-color: rgba(255,236,229,.6); }
 
 img { max-width: 100%; }
 
@@ -98,46 +111,45 @@ img.work  { margin-bottom: 10px;}
 /* Typography */
 h1, h2 {
   margin-top: 0;
-  margin-bottom: 2rem; }
+  margin-bottom: 1rem; }
 
 h1 {
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 55px; }
+  font-weight: 400;
+  text-align: center;
+  font-size: 60px;
+  line-height: 60px; }
 
 h2 {
   font-weight: 400;
   font-size: 36px;
   line-height: 38px;
-  color: rgba(0, 0, 0, 0.4);}
+  color: rgba(0,0,0,.4);}
 
-h3 {
-  font-family: "Helvetica Neue LT W01_63 Md Ex";
-  font-size: 16px;
-  letter-spacing: 0.03em;
-  line-height: 16px;
+h3, .nav {
+  font-family: "Helvetica Neue LT W01_53 Ext", "Helvetica Neue LT Std", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.15em;
+  line-height: 14px;
   margin-top: 0;
   margin-bottom: 10px;
-}
+  text-transform: uppercase;}
 
 p {
+  font-weight: 400;
   margin-top: 0;
-  margin-bottom: 34px;
-}
+  margin-bottom: 34px;}
 
 .small {
   font-size:14px;
   line-height: 18px;
-  color: rgba(0, 0, 0, 0.4);
-}
+  color: rgba(0,0,0,.4);}
 
 .right {
-  text-align: right;
-}
+  text-align: right;}
 
 .center {
-  text-align: center;
-}
+  text-align: center;}
 
 /* Typography Desktop */
 @media (min-width: 550px) {
@@ -148,12 +160,12 @@ p {
 a {
   color: black;
   text-decoration: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.25);}
+  border-bottom: 1px solid rgba(0,0,0,.25);}
 
 a:hover {
   color: black;
   text-decoration: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 1); }
+  border-bottom: 1px solid rgba(0,0,0,1); }
 
 .logo {
   color: black;

@@ -14,7 +14,7 @@
 
 <body>
 <!-- Navigation -->
-<div class="work nav">My Work</div>
+<div class="current work nav">My Work</div>
 <div class="resume nav"><a href="resume.html">My Resume</a></div>
 
 <div class="container">
@@ -27,8 +27,8 @@
 
 <!-- BHLDN -->
   <div class="row" style="margin-top: 34px">
-    <div class="twelve columns center">
-      <h3>BHLDN</h3>
+    <div class="twelve columns">
+      <h4>BHLDN</h4><span class="number">5</span>
     </div>
   </div>
 <!-- One -->
@@ -82,8 +82,8 @@
 
 <!-- SIDESHOW -->
   <div class="row" style="margin-top: 34px">
-    <div class="twelve columns center">
-      <h3>SIDESHOW PRESS</h3>
+    <div class="twelve columns">
+      <h4>SIDESHOW PRESS</h4><span class="number">10</span>
     </div>
   </div>
 <!-- One -->
@@ -146,5 +146,26 @@
       <p class="small">© 2017 Frances Morgan Oliver</p>
     </div>
   </div>
-</div></body>
+</div>
+
+
+<!--Javascript Time-->
+<!-- id="me1" onclick="shownextpic1()" -->
+<script type="text/javascript">
+// Logos
+var counter1=0;
+var me1 = new Array();
+me1[0] = "img/logo2.jpg";
+me1[1] = "img/logo3.jpg";
+me1[2] = "img/logo4.jpg";
+me1[3] = "img/logo5.jpg";
+me1[4] = "img/logo6.jpg";
+me1[5] = "img/logo7.jpg";
+me1[6] = "img/logo1.jpg";
+
+function shownextpic1()
+{document.getElementById("me1").src = me1[counter1++];
+if(counter1==7) counter1=0;}
+</script>
+</body>
 </html>

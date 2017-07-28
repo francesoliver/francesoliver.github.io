@@ -32,7 +32,7 @@ z-index:5000;}
 /* Desktop */
 @media (min-width: 550px) {
   .resume-text {
-    padding: 0 200px;}
+    padding: 0 175px;}
 
   .container {
     width: 100%;}
